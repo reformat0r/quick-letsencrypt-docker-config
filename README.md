@@ -2,6 +2,10 @@
 
 Just a basic docker-compose file that I use for prototyping.\
 It uses a single domain-name to host both a front- and backend. The `gateway` forwards all requests for `/api` to the backend-service, everything else is received by the frontend. 
+
+![A diagram](diagram/diagram.png)
+
+
 \
 \
 [docker-compose.yml](docker-compose.yml)
